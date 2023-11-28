@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: Poppins;
+}
+
+.header {
+    width: 550px;
+    height: 65px;
+    padding: 20px;
+    /* background-color: orange; */
+    background-image: linear-gradient(90deg, #672280, #A626D3);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.troll-face-img {
+    width: 35px;
+    height: 32px;
+}
+
+.header-left-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-right-title {
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: auto;
+}
