@@ -57,6 +57,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     padding: 0 10px;
+    font-family: Poppins;
 }
 
 .input-txt:focus {
@@ -68,6 +69,7 @@ body {
     width: 500px;
     height: 40px;
     font-size: 0.9rem;
+    font-family: Poppins;
     cursor: pointer;
     background-image: linear-gradient(90deg, #672280, #A626D3);
     color: white;   

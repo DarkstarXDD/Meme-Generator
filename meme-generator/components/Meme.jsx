@@ -3,8 +3,8 @@ export default function Meme() {
         <div className="meme-section">
             <form>
                 <div className="two-inputs">
-                    <input className="first-input input-txt" type="text" placeholder="shut up" />
-                    <input className="second-input input-txt" type="text" placeholder="and take my money" />
+                    <input className="input-txt" type="text" placeholder="Top Text" />
+                    <input className="input-txt" type="text" placeholder="Bottom Text" />
                 </div>
                 <input className="btn-submit" type="submit" value="Get a New Meme Image"/>
             </form>
