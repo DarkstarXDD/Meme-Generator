@@ -76,3 +76,9 @@ body {
     border: none;
     border-radius: 6px;
 }
+
+.meme-img {
+    width: 500px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
