@@ -19,7 +19,14 @@ export default function Meme() {
 
         const url = allImages.data.memes[randNumber].url
         console.log(url)
-        setMemeImage(url)
+        setMemeImage(previousMemeObj => {
+            return (
+                {
+                    ...meme,
+                    randomImage: url
+                }
+            )
+        })
     }
 
     return (
